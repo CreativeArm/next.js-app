@@ -12,6 +12,7 @@ export default function page() {
       <UserDetails />
       <Counter />
       <ContactForm />
+      <ContactForm />
     </div>
   );
 }
