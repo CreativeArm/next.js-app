@@ -2,7 +2,7 @@ import React from "react";
 import Counter from "./conponents/Counter";
 import UserDetails from "./conponents/userDetails";
 import UserList from "./conponents/useEffect";
-import App from "next/app";
+import ContactForm from "./conponents/formHandling";
 
 export default function page() {
   return (
@@ -11,6 +11,7 @@ export default function page() {
 
       <UserDetails />
       <Counter />
+      <ContactForm />
     </div>
   );
 }
